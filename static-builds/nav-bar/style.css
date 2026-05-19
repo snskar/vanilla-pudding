@@ -4,19 +4,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
     min-width: 100vw;
 }
 
 .screen-mock{
     display:flex;
     flex-direction: column;
-    flex-basis: 70%;
-    width: 50%;
     background-color: aliceblue;
     min-height: 60vh;
+    max-height: 60vh;
     min-width: 40vw;
     border-radius: 1.25rem;
+    overflow-y: auto;
 }
 
 .nav-bar {
@@ -26,6 +26,9 @@
     align-items: center;
     border-top-left-radius: 1.25rem;
     border-top-right-radius: 1.25rem;
+    position:sticky;
+    top: 0;
+    z-index:10;
 }
 
 .nav-bar-left {
@@ -47,10 +50,10 @@
     margin: 0.25rem 1rem 0.25rem 1rem;
     padding: 0.5rem;
     border-radius: 999rem;
+    transition: color 300ms, background-color 300ms;
 }
 
 .nav-bar a:hover {
     color: black;
     background-color: aliceblue;
-    transition: 300ms;
 }
