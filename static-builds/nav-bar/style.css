@@ -1,0 +1,56 @@
+.page-container {
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.screen-mock{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    width: 50%;
+    background-color: aliceblue;
+    min-height: 60vh;
+    min-width: 40vw;
+    border-radius: 1.25rem;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+}
+
+.nav-bar-left {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.nav-bar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    justify-content: flex-end;
+}
+
+.nav-bar a {
+    color: white;
+    margin: 0.25rem 1rem 0.25rem 1rem;
+    padding: 0.5rem;
+    border-radius: 999rem;
+}
+
+.nav-bar a:hover {
+    color: black;
+    background-color: aliceblue;
+    transition: 300ms;
+}
