@@ -1,0 +1,66 @@
+.page-container {
+
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    flex-direction: column;
+}
+
+.screen-mock {
+
+    height: 60vh;
+    width: 40vw;
+    border-radius: 2rem;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav-bar {
+
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-color: black;
+    display: flex;
+    flex-direction: row; 
+    min-width: 100%;
+}
+
+.nav-bar-left {
+
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+}
+
+.nav-bar-right {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar a{
+
+    color:white;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 999rem;
+    width: 100;
+}
+
+.nav-bar a:hover{
+
+    color:black;
+    background-color: white;
+
+}
+
+.nav-bar {
+
+    margin-right: auto;
+}
+
