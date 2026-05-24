@@ -1,0 +1,81 @@
+.page-container {
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 2fr 1fr 4fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "navbar navbar navbar"
+        "left-sidebar main right-sidebar"
+        "footer footer footer";
+    background-color: bisque;
+    min-width: 100%;
+    min-height:100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    gap: 0.25rem;
+    color: black;
+    text-align: center;
+
+}
+
+.header {
+
+    grid-area: header;
+    background-color: chocolate;
+    border-radius: 1rem;
+    place-content: center;
+}
+
+.navbar {
+
+    grid-area: navbar;
+    background-color: cadetblue;
+    border-radius: 1rem;
+    place-content: center;
+}
+
+.left-sidebar {
+
+    grid-area: left-sidebar;
+    background-color: aqua;
+    border-radius: 1rem;
+    place-content: center;
+}
+
+.right-sidebar {
+
+    grid-area: right-sidebar;
+    background-color: aquamarine;
+    border-radius: 1rem;
+    place-content: center;
+
+}
+
+.main {
+
+    grid-area: main;
+    place-content: center;
+}
+
+.footer {
+
+    grid-area: footer;
+    background-color: chartreuse;
+    border-radius: 1rem;
+    place-content: center;
+}
+
+@media (max-width:600px){
+    .page-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 4fr 2fr 2fr 1fr;
+        grid-template-areas: 
+            "header"
+            "navbar"
+            "main"
+            "left-sidebar"
+            "right-sidebar"
+            "footer"
+    }
+}
