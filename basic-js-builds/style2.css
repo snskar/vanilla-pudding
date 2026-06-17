@@ -1,0 +1,41 @@
+body {
+
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.counter-container {
+
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:1rem;
+}
+
+#counter-text {
+
+    font-weight: 800;
+    font-size: 2rem;
+    color: maroon;
+
+}
+
+.buttons-container {
+
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#incremenet-container {
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
