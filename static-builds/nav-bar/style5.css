@@ -1,0 +1,55 @@
+body {
+
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width:100vw;
+
+}
+
+.nav-bar-container {
+
+    background-color: darkslategray;
+    border-radius: 1.5rem;
+    min-height:60vh;
+    min-width:60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    background-color:darkorchid;
+    margin-bottom: auto;
+    width: 100%;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    color:springgreen;
+    justify-content: space-between;
+}
+
+.nav-bar-content {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.nav-bar-content p {
+    border-radius: 999rem;
+    padding: 1rem;
+}
+
+.nav-bar-content p:hover {
+
+    background-color: springgreen;
+    color: darkorchid;
+    cursor: pointer;
+}
