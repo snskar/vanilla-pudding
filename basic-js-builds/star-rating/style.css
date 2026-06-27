@@ -1,0 +1,64 @@
+body {
+
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.component-mock {
+
+    min-height: 60vh;
+    min-width: 60vw;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+#rating-disclaimer-text {
+
+    margin:0rem;
+}
+
+.star-rating-component {
+
+    display: flex;
+    gap: 0.25rem;
+    margin-top: 1rem;
+}
+
+.star {
+
+    color:#b0b0b0;
+    cursor:pointer;
+}
+
+.star path {
+
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.5;
+    stroke-linejoin: round
+}
+
+.star.filled {
+    color:#f5a623;
+}
+
+.star.filled path {
+    fill: currentColor;
+}
+
